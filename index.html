@@ -6,25 +6,87 @@
     <title>Resume</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-
-
 </head>
 <body>
-    <!-- // Header // -->
+    <!-- // NAVIGATION // -->
+    <nav> 
+        <a href="index.html" title="Home"><img src="images/logo.svg" alt="Personal Logo"></a>
+        <ul>
+            <li><a href='index.html' title="Work">work</a></li>
+            <li><a href='resume.html' title="Resume">resume</a></li>
+            <li><a href='about.html' title="About Me">about me</a></li>
+         </ul>
+    </nav>
+
+    <!-- // HEADER // -->
     <header>
-        <a href="#resume" class="screen-reader-text">Skip to Resume</a>
-        <a href="index.html" title="Return to home page"><img src="your-picture.jpg" alt="Personal Logo"></a>
-        <nav>
-            <ul>
-                <li><a href='design.html' title="Design">Design</a></li>
-                <li><a href='development.html' title="Development">Development</a></li>
-                <li><a href='resume.html' title="Resume">Resume</a></li>
-                <li><a href='about.html' title="About">About</a></li>
-                <li><a href='contact.html' title="Contact Information">Contact</a></li>
-                </ul>
-        </nav>
-        <h1>About Me</h1>
-        <p>A collection of my work experiences, projects, and background.</p>
-    </header>
+        <h1><span class="pink">Isabelle</span>
+            <br>Nguyen-Phuoc</h1>
+        <p>I’m a product designer with an unconventional background<span class="pink" aria-hidden="true">*</span></p>
+        <p>I aspire to design technology grounded in humanity.</p>
+        <div class="social-media">
+             <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank"><span class="screen-reader-text">LinkedIn</span>
+                    <span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
+                </a>
+        <a href="mailto:contact@icnp.design"><span class="screen-reader-text">Email</span>
+                    <span class="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
+                </a>
+                <a href="http://twitter.com/icnpdesign" target="_blank"><span class="screen-reader-text">Twitter</span>
+                    <span class="fab fa-twitter-square fa-2x" aria-hidden="true"></span>
+                </a>
+                <a href="#" target="_blank"><span class="screen-reader-text">GitHub</span>
+                    <span class="fab fa-github-square fa-2x" aria-hidden="true"></span>
+                </a>
+                <a href="#" target="_blank"><span class="screen-reader-text">Dribbble</span>
+                    <span class="fab fa-dribbble-square fa-2x" aria-hidden="true"></span>
+                </a>
+            </div>
+    </header>  
+
+    <!-- // Portfolio Projects // -->
+    <article class="card">
+        <a href="heybartender.html">
+            <div class="card__text">
+                <h2>Hey Bartender</h2>
+                <h3>Web Application</h3>
+                <p>Location based happy hour finder built with React.js and styled components</p>
+            </div>
+            <img src="images/heybartender.jpg" width="400px">
+        </a>
+    </article>
+
+    <article class="card">
+        <a href="avrio.html">
+            <div class="card__text">
+                <h2>Avrio AI</h2>
+                <h3>Company Website</h3>
+                <p>Company website for an artificial intelligence startup built with HTML, CSS, and JavaScript on HubSpot.</p>
+            </div>
+            <img src="images/avrio.jpg" width="400px">
+        </a>
+    </article>
+
+     <article class="card">
+        <a href="bumobile.html">
+            <div class="card__text">
+                <h2>BU Mobile</h2>
+                <h3>Mobile Application</h3>
+                <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
+            </div>
+            <img src="images/bumobile.jpg" width="400px">
+        </a>
+    </article>
+
+    <article class="card">
+            <a href="konexio.html">
+                <div class="card__text">
+                    <h2>Konexio Connect</h2>
+                    <h3>Web Application</h3>
+                    <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
+                </div>
+                <img src="#">
+            </a>
+        </article>
+
 </body>
 </html>
