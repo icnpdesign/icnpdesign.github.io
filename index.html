@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124571892-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124571892-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
 </head>
 <body>
     <!-- // NAVIGATION // -->
-    <nav> 
+    <nav id="main-menu"> 
         <a href="index.html" title="Home"><img src="images/logo.svg" alt="Personal Logo"></a>
         <ul>
             <li><a href='index.html' title="Work">work</a></li>
             <li><a href='resume.html' title="Resume">resume</a></li>
-            <li><a href='about.html' title="About Me">about me</a></li>
+            <li><a href='about.html' title="About Me"><span class="pink" aria-hidden="true">*</span>about me</a></li>
          </ul>
     </nav>
 
@@ -44,45 +56,49 @@
     </header>  
 
     <!-- // Portfolio Projects // -->
-    <article class="card">
+    <article class="card card0">
         <a href="heybartender.html">
             <div class="card__text">
+                <p>Web Application</p>
                 <h2>Hey Bartender</h2>
-                <h3>Web Application</h3>
                 <p>Location based happy hour finder built with React.js and styled components</p>
+                <a href="#" class="btn btn0">View Case Study</a>
             </div>
             <img src="images/heybartender.jpg" width="400px">
         </a>
     </article>
 
-    <article class="card">
+    <article class="card card1">
         <a href="avrio.html">
             <div class="card__text">
+                <p>Company Website</p>
                 <h2>Avrio AI</h2>
-                <h3>Company Website</h3>
                 <p>Company website for an artificial intelligence startup built with HTML, CSS, and JavaScript on HubSpot.</p>
+                <a href="#" class="btn btn1">View Case Study</a>
             </div>
             <img src="images/avrio.jpg" width="400px">
         </a>
     </article>
 
-     <article class="card">
+     <article class="card card2">
         <a href="bumobile.html">
             <div class="card__text">
+                <p>Mobile Application</p>
                 <h2>BU Mobile</h2>
-                <h3>Mobile Application</h3>
                 <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
+                <a href="#" class="btn btn2">View Case Study</a>
             </div>
             <img src="images/bumobile.jpg" width="400px">
         </a>
     </article>
 
-    <article class="card">
+    <article class="card card3">
             <a href="konexio.html">
                 <div class="card__text">
+                    <p>Web Application</p>
                     <h2>Konexio Connect</h2>
-                    <h3>Web Application</h3>
                     <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
+                    <a href="#" class="btn btn3">View Case Study</a>
                 </div>
                 <img src="#">
             </a>
