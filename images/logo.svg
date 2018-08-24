@@ -1,20 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="39px" height="66px" viewBox="0 0 39 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 3</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Copy-4" transform="translate(-29.000000, -27.000000)" fill-rule="nonzero">
-            <g id="Group-3" transform="translate(31.000000, 29.000000)">
-                <circle id="Oval" fill="#E6ADAD" cx="7.5" cy="10.5" r="2.5"></circle>
-                <g id="Group" stroke-width="4">
-                    <path d="M10,53 C13.1486871,55 15.6486871,56 17.5,56 C19.3513129,56 21.8513129,55 25,53" id="Path-2" stroke="#2E2E2E" stroke-linecap="round"></path>
-                    <path d="M12,60 C14.5751754,61.3333333 16.5751754,62 18,62 C19.4248246,62 21.4248246,61.3333333 24,60" id="Path-3" stroke="#2E2E2E" stroke-linecap="round"></path>
-                    <path d="M12.5678771,45 C10.1892924,29.7072044 9,21.1490629 9,19.3255757 C9,16.5903448 10.8398652,25.8947403 12.5678771,29.1627878 C14.295889,32.4308354 16.3758,36.1257005 18.0300559,32.2946004 C19.6843117,28.4635004 16.6392884,18.1452734 18.0300559,16.5128985 C18.9258378,15.4614993 20.2171077,18.4327452 21.9038657,25.4266363 L21.9038636,25.4266368 C21.9297609,25.5340162 22.037803,25.6000705 22.1451824,25.5741732 C22.2156035,25.5571893 22.2713364,25.5034542 22.2908784,25.4336996 L25.5268862,13.8828783 C25.5566839,13.7765165 25.667063,13.714449 25.7734248,13.7442467 C25.8325575,13.7608129 25.8808017,13.8036266 25.9042787,13.8603711 L31,26.1768511" id="Path-4" stroke="#E6ADAD" stroke-linecap="round"></path>
-                    <path d="M17.5,48 C28.2397628,48 26.8398492,42.4737232 28.5027057,35.7929396 C30.0664975,29.5101635 35,22.2063426 35,17.517527 C35,7.84286396 27.1649831,0 17.5,0 C7.83501688,0 0,7.84286396 0,17.517527 C0,22.2136745 5.17722089,29.5330118 6.75082103,35.8224051 C8.41903794,42.4899644 6.77603045,48 17.5,48 Z" id="Oval-3" stroke="#E6ADAD"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 39 66" style="enable-background:new 0 0 39 66;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F08080;}
+	.st1{fill:none;stroke:#2E2E2E;stroke-width:3;stroke-linecap:round;}
+	.st2{fill:none;stroke:#F08080;stroke-width:3;stroke-linecap:round;}
+	.st3{fill:none;stroke:#F08080;stroke-width:3;}
+</style>
+<title>Group 3</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Desktop-Copy-4" transform="translate(-29.000000, -27.000000)">
+		<g id="Group-3" transform="translate(31.000000, 29.000000)">
+			<circle id="Oval" class="st0" cx="7.9" cy="13.1" r="1.9"/>
+			<g id="Group">
+				<path id="Path-2" class="st1" d="M10,53c3.1,2,5.6,3,7.5,3s4.4-1,7.5-3"/>
+				<path id="Path-3" class="st1" d="M12,60c2.6,1.3,4.6,2,6,2s3.4-0.7,6-2"/>
+				<path id="Path-4_1_" class="st2" d="M12.3,46.6C10,31.3,9,21.1,9,19.3c0-2.7,1.8,6.6,3.6,9.8s3.8,7,5.5,3.1
+					c1.7-3.8-1.4-14.1,0-15.8c0.9-1.1,2.2,1.9,3.9,8.9h0c0,0.1,0.1,0.2,0.2,0.1c0.1,0,0.1-0.1,0.1-0.1l1.7-6.1l1.5-5.5
+					c0-0.1,0.1-0.2,0.2-0.1c0.1,0,0.1,0.1,0.1,0.1l5.6,14"/>
+				<path id="Oval-3" class="st3" d="M17.5,48c10.7,0,9.3-5.5,11-12.2c1.6-6.3,6.5-13.6,6.5-18.3C35,7.8,27.2,0,17.5,0S0,7.8,0,17.5
+					c0,4.7,5.2,12,6.8,18.3C8.4,42.5,6.8,48,17.5,48z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

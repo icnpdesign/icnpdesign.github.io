@@ -27,7 +27,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     //background-color: #FAFAFA;
-    margin: 2rem 5rem;
+    width: 70%;
+    margin: 3rem auto;
     color: #383838;
   }
   
@@ -36,13 +37,13 @@ h2{
 }
 h1 {
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 0.9;
-    margin: 0.5rem 0;
+    margin-bottom: 0.5rem;
     font-weight: 700;
 }  
 .pink {
-    color: #E6ADAD;
+    color: lightcoral;
 }
 
 .hidden {
@@ -51,12 +52,13 @@ h1 {
 
 /* Navigation */
 nav {
-    height: 150px;
+    height: 200px;
     clear: both;
 }
 
 nav img {
     float: left;
+    width: 50px;
 }
 
 nav ul {
@@ -78,18 +80,26 @@ nav li {
 
 nav a:hover, .active {
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #E6ADAD;
+    border-bottom: 2px solid #f08080;
 }
 
 /*HEADER*/
-header p {
-    font-size: 1.25rem;
-}
 
+header {
+    margin-left: 1rem;
+}
+header p {
+    font-size: 1.51rem;
+    margin-left: 0.3rem;
+}
+.social-media {
+    margin-left: 0.3rem;
+
+}
 .fab, .fas {
     color: #000;
     opacity: 0.2;
-    margin: 1rem 1.5rem 1rem 0;
+    margin: 3rem 1.5rem 4rem 0;
     transition: 0.5s;
 }
 
@@ -102,7 +112,7 @@ header p {
     background-color: #fff;
     border: 0.5px solid #EBEBEB;
     border-radius: 10px;
-    width: 75%;
+    width: 90%;
     margin: 5rem auto;
     transition: 0.5s;
     clear: both;
@@ -164,8 +174,8 @@ header p {
 
 .card__text a:last-child {
     font-size: 0.8rem;
-    color: #E6ADAD;
-    border: 1.5px solid #E6ADAD;
+    color: #f08080;
+    border: 1.5px solid #f08080;
     border-radius: 3px;
     padding: 0.5rem 1rem;
 }
