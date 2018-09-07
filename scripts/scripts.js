@@ -1,3 +1,5 @@
+
+
 $(function() {
     $('.card0').hover(function() {
       $('.card0').css('cursor', 'pointer');  

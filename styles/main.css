@@ -18,15 +18,16 @@ li {
 
 html,
 body {
-    font-family: "Muli", Helvetica, sans-serif;
+    font-family: futura-pt, sans-serif;
+    letter-spacing: .06em;
     height: 100%;
     box-sizing: border-box;
   }
 
 body {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    //background-color: #FAFAFA;
+    background-color: #FAFAFA;
     width: 70%;
     margin: 3rem auto;
     color: #383838;
@@ -41,6 +42,7 @@ h1 {
     line-height: 0.9;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    
 }  
 .pink {
     color: lightcoral;
@@ -58,7 +60,8 @@ nav {
 
 nav img {
     float: left;
-    width: 50px;
+    width: 40px;
+    opacity: 0.5;
 }
 
 nav ul {
@@ -71,16 +74,18 @@ nav li {
 
  nav a {
         margin: 2rem;
-        font-size: 1rem;
+        font-size: 0.75rem;
         color: #000000;
-        letter-spacing: 0.71px;
+        letter-spacing: 0.1rem;
         text-align: center;
         line-height: 40px;
+        text-transform: uppercase;
+        opacity: 0.5;
+        font-weight: 400;
 }
 
 nav a:hover, .active {
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #f08080;
+    opacity: 1;
 }
 
 /*HEADER*/
