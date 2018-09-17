@@ -102,18 +102,19 @@ strong {
 /****** Navigation Menu ******/
 
 nav {
-    height: 80px;
+    height: 90px;
     clear: both;
 }
 
 nav img {
     float: left;
-    width: 35px;
+    width: 45px;
     opacity: 0.5;
 }
 
 nav ul {
     float: right;
+    padding-top: 12px;
 }
 
 nav li {
@@ -121,7 +122,7 @@ nav li {
 }
 
 nav a {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         color: var(--text-color);
         letter-spacing: 0.1rem;
         line-height: 40px;
@@ -136,6 +137,7 @@ nav a:hover {
     color: var(--primary-color);
     opacity: 1;
 }
+
 
 
 /****** Header ******/
