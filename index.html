@@ -1,159 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124571892-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 
-        gtag('config', 'UA-124571892-1');
-    </script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124571892-1">
+	</script>
+	<script>
+	          window.dataLayer = window.dataLayer || [];
+	          function gtag(){dataLayer.push(arguments);}
+	          gtag('js', new Date());
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabelle Nguyen-Phuoc</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts/scripts.js" defer></script>
+	          gtag('config', 'UA-124571892-1');
+	</script>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Isabelle Nguyen-Phuoc</title>
+	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script defer src="scripts/scripts.js">
+	</script>
 </head>
 <body>
-    <!-- // NAVIGATION // -->
-    <nav id="main-menu"> 
-        <a href="index.html" title="Home"><img src="assets/images/logo.svg" alt="Personal Logo"></a>
-        <ul>
-            <li><a href="index.html" title="Portfolio" class="active">Portfolio</a></li>
-            <li><a href="/assets/files/resume.pdf" title="Resume" target="_blank">Resume</a></li>
-            <li><a href="about.html" title="About Me">About</a></li>
-            <li><a href="mailto:contact@icnp.design?subject=Reaching%20Out" title="Contact">Contact</a></li>
-         </ul>
-    </nav>
+	
+	<!-- // NAVIGATION // -->
+	<nav id="main-menu">
+		<a href="index.html" title="Home"><img alt="Personal Logo" src="assets/images/logo.svg"></a>
+		<ul>
+			<li>
+				<a class="active" href="index.html" title="Portfolio">Portfolio</a>
+			</li>
+			<li>
+				<a href="/assets/files/resume.pdf" target="_blank" title="Resume">Resume</a>
+			</li>
+			<li>
+				<a href="about.html" title="About Me">About</a>
+			</li>
+			<li>
+				<a href="mailto:contact@icnp.design?subject=Reaching%20Out" title="Contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<!-- // HEADER // -->
+	<header class="intro">
+		<p>Hi, I'm <strong>Isabelle</strong>, a product designer and front-end developer.</p>
+		<p>I aspire to design technology grounded in humanity.</p>
+		<div class="social-media">
+			<ul>
+				<li>
+					<a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank">
+						<span class="screen-reader-text">LinkedIn</span> <span aria-hidden="true" class="fab fa-linkedin fa-2x"></span>
+					</a>
+				</li>
+				<li>
+					 <a href="mailto:contact@icnp.design?subject=Reaching%20Out">
+						 <span class="screen-reader-text">Email</span> 
+						 <span aria-hidden="true" class="fas fa-envelope-square fa-2x"></span>
+					</a>
+				</li> 
+				<li>
+					<a href="http://twitter.com/icnpdesign" target="_blank">
+							<span class="screen-reader-text">Twitter</span> <span aria-hidden="true" class="fab fa-twitter-square fa-2x"></span>
+					</a>
+				</li> 
+				<li>
+					<a href="https://github.com/icnpdesign" target="_blank">
+							<span class="screen-reader-text">GitHub</span> <span aria-hidden="true" class="fab fa-github-square fa-2x"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	
+	<!-- // Portfolio Projects // -->
+	<section class="case-studies">
+		<h1 class="screen-reader-text">Case Studies</h1>
+		<article class="card card0">
+			<a href="heybartender.html"><img alt="Mockup of Hey Bartender" src="assets/images/cases/heybartender.png">
+			<div class="card__text">
+				<p>Web Application</p>
+				<h2>Hey Bartender</h2>
+				<p>Location based happy hour finder built with React.js and styled components</p><button class="btn btn0">View Case Study</button>
+			</div></a>
+		</article>
+		<article class="card card1">
+			<a href="bumobile.html"><img alt="Mockup of Terrier Card" src="assets/images/cases/terriercard.png">
+			<div class="card__text">
+				<p>Mobile Application</p>
+				<h2>Terrier Card</h2>
+				<p>Mobile banking application for Boston University students</p><button class="btn btn1">View Case Study</button>
+			</div></a>
+		</article>
+		<article class="card card2">
+			<a href="konexio.html"><img alt="Mockup of Konexio" src="assets/images/cases/konexio.png">
+			<div class="card__text">
+				<p>Web Application</p>
+				<h2>Konexio Connect</h2>
+				<p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p><button class="btn btn2">View Case Study</button>
+			</div></a>
+		</article>
+		<article class="card card3">
+			<a href="lit.html"><img alt="Mockup of LIT" src="assets/images/cases/lit.png">
+			<div class="card__text">
+				<p>Mobile Application</p>
+				<h2>Ladies in Technology</h2>
+				<p>Networking platform for women in technology with in-app messaging and virtual business cards</p><button class="btn btn3">View Case Study</button>
+			</div></a>
+		</article>
+		<article class="card card4">
+			<a href="avrio.html"><img alt="Mockup of Avrio Website" src="assets/images/cases/avrio.png">
+			<div class="card__text">
+				<p>Company Website</p>
+				<h2>Avrio AI</h2>
+				<p>Company website for an artificial intelligence startup in human resources</p><button class="btn btn4">View Case Study</button>
+			</div></a>
+		</article>
+		<article class="card card5">
+			<a href="freshtofit.html"><img alt="Mockup of Fresh to Fit" src="assets/images/cases/fresh.png">
+			<div class="card__text">
+				<p>Web Application</p>
+				<h2>Fresh to Fit</h2>
+				<p>Final project for Design and Interactive Experiences Class</p><button class="btn btn5">View Case Study</button>
+			</div></a>
+		</article>
+	</section>
 
-    <!-- // HEADER // -->
-    <header class="intro">
-        <p>Hi, I'm <strong>Isabelle</strong>, a product designer and front-end developer.</p>
-        <p>I aspire to design technology grounded in humanity.</p>
-        <div class="social-media">
-             <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank"><span class="screen-reader-text">LinkedIn</span>
-                    <span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
-                </a>
-        <a href="mailto:contact@icnp.design"><span class="screen-reader-text">Email</span>
-                    <span class="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
-                </a>
-                <a href="http://twitter.com/icnpdesign" target="_blank"><span class="screen-reader-text">Twitter</span>
-                    <span class="fab fa-twitter-square fa-2x" aria-hidden="true"></span>
-                </a>
-                <a href="https://github.com/icnpdesign" target="_blank"><span class="screen-reader-text">GitHub</span>
-                    <span class="fab fa-github-square fa-2x" aria-hidden="true"></span>
-                </a>
-                <a href="#" target="_blank"><span class="screen-reader-text">Dribbble</span>
-                    <span class="fab fa-dribbble-square fa-2x" aria-hidden="true"></span>
-                </a>
-            </div>
-    </header>  
-
-    <!-- // Portfolio Projects // -->
-    <section class="case-studies">
-        <h1>Case Studies</h1>
-    <article class="card card0">
-        <a href="heybartender.html">
-                <img src="assets/images/cases/heybartender.png" alt="Mockup of Hey Bartender">
-            <div class="card__text">
-                <p>Web Application</p>
-                <h2>Hey Bartender</h2>
-                <p>Location based happy hour finder built with React.js and styled components</p>
-                <button class="btn btn0">View Case Study</button>
-            </div>
-            
-        </a>
-    </article>
-
-     <article class="card card2">
-        <a href="bumobile.html">
-            <img src="assets/images/cases/terriercard.png" alt="Mockup of Terrier Card">
-            <div class="card__text">
-                <p>Mobile Application</p>
-                <h2>Terrier Card</h2>
-                <p>Mobile banking application for Boston University students</p>
-                <button class="btn btn2">View Case Study</button>
-            </div>
-        </a>
-    </article>
-
-    <article class="card card3">
-        <a href="konexio.html">
-            <img src="assets/images/cases/konexio.png" alt="Mockup of Konexio">
-            <div class="card__text">
-                <p>Web Application</p>
-                <h2>Konexio Connect</h2>
-                <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
-                <button class="btn btn3">View Case Study</button>
-            </div>
-        </a>
-    </article>
-
-
-    <article class="card card1">
-            <a href="lit.html">
-                <img src="assets/images/cases/lit.png" alt="Mockup of LIT">
-                <div class="card__text">
-                    <p>Mobile Application</p>
-                    <h2>Ladies in Technology</h2>
-                    <p>Networking platform for women in technology with in-app messaging and virtual business cards</p>
-                    <button class="btn btn1">View Case Study</button>
-                </div>
-            </a>
-    </article>
-
-        <article class="card card1">
-                <a href="avrio.html">
-                    <img src="assets/images/cases/avrio.png" alt="Mockup of Avrio Website">
-                    <div class="card__text">
-                        <p>Company Website</p>
-                        <h2>Avrio AI</h2>
-                        <p>Company website for an artificial intelligence startup in human resources</p>
-                        <button class="btn btn1">View Case Study</button>
-                    </div>
-                </a>
-        </article>
-        
-        <article class="card card1">
-                    <a href="freshtofit.html">
-                        <img src="assets/images/cases/fresh.png" alt="Mockup of Fresh to Fit">
-                        <div class="card__text">
-                            <p>Web Application</p>
-                            <h2>Fresh to Fit</h2>
-                            <p>Final project for Design and Interactive Experiences Class</p>
-                            <button class="btn btn1">View Case Study</button>
-                        </div>
-                    </a>
-            </article>
-        </section>
-            <footer>        
-                <!-- Social media and contact links. Add or remove any networks. -->
-                <div class="social-media">
-                    <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank"><span class="screen-reader-text">LinkedIn</span>
-                        <span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
-                    </a>
-                    <a href="mailto:contact@icnp.design"><span class="screen-reader-text">Email</span>
-                        <span class="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                    <a href="http://twitter.com/icnpdesign" target="_blank"><span class="screen-reader-text">Twitter</span>
-                        <span class="fab fa-twitter-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                    <a href="#" target="_blank"><span class="screen-reader-text">GitHub</span>
-                        <span class="fab fa-github-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                    <a href="#" target="_blank"><span class="screen-reader-text">Dribbble</span>
-                        <span class="fab fa-dribbble-square fa-2x" aria-hidden="true"></span>
-                    </a>
-                </div>
-        
-                <p>&copy; 2018</p>
-                <p>Designed and Developed by Isabelle Nguyen-Phuoc</p>
-            </footer>     
-
+	<!-- // FOOTER // -->
+    <footer>        
+			<div class="social-media">
+				<ul>
+					<li>
+						<a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank">
+							<span class="screen-reader-text">LinkedIn</span>
+							<span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:contact@icnp.design">
+							<span class="screen-reader-text">Email</span>
+							<span class="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/icnpdesign" target="_blank">
+							<span class="screen-reader-text">Twitter</span>
+							<span class="fab fa-twitter-square fa-2x" aria-hidden="true"></span>
+						 </a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<span class="screen-reader-text">GitHub</span>
+							<span class="fab fa-github-square fa-2x" aria-hidden="true"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+	
+			<p>&copy; 2018</p>
+			<p>Designed &amp; Developed by Isabelle Nguyen-Phuoc</p>
+		</footer>
 </body>
 </html>
