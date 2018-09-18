@@ -133,7 +133,7 @@ nav a {
         margin: 2rem;
 }
 
-nav a:hover {
+nav a:hover, .active {
     color: var(--primary-color);
     opacity: 1;
 }
@@ -173,6 +173,13 @@ header p {
 
 
 /****** Case Study Cards ******/
+.case-studies h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--caption-color);
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
 
 .card {
     background-color: #fff;
@@ -231,15 +238,12 @@ header p {
     margin: 0 0 0.5rem 0;
 }
 
-.card__text p:last-child {
-    margin-bottom: 2rem;
-}
-
-.card__text a:last-child {
+.card__text button {
     font-size: 0.8rem;
     color: var(--primary-color);
     border: 1.5px solid var(--primary-color);
     border-radius: 3px;
     padding: 0.5rem 1rem;
+    margin-top: 2rem;
 }
 

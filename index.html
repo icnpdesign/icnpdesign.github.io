@@ -24,10 +24,10 @@
     <nav id="main-menu"> 
         <a href="index.html" title="Home"><img src="assets/images/logo.svg" alt="Personal Logo"></a>
         <ul>
-            <li><a href='index.html' title="Portfolio">Portfolio</a></li>
-            <li><a href='/assets/files/resume.pdf' title="Resume" target="_blank">Resume</a></li>
-            <li><a href='about.html' title="About Me">About</a></li>
-            <li><a href='mailto:contact@icnp.design' title="Contact">Contact</a></li>
+            <li><a href="index.html" title="Portfolio" class="active">Portfolio</a></li>
+            <li><a href="/assets/files/resume.pdf" title="Resume" target="_blank">Resume</a></li>
+            <li><a href="about.html" title="About Me">About</a></li>
+            <li><a href="mailto:contact@icnp.design?subject=Reaching%20Out" title="Contact">Contact</a></li>
          </ul>
     </nav>
 
@@ -55,14 +55,16 @@
     </header>  
 
     <!-- // Portfolio Projects // -->
+    <section class="case-studies">
+        <h1>Case Studies</h1>
     <article class="card card0">
         <a href="heybartender.html">
-                <img src="assets/images/cases/heybartender.png">
+                <img src="assets/images/cases/heybartender.png" alt="Mockup of Hey Bartender">
             <div class="card__text">
                 <p>Web Application</p>
                 <h2>Hey Bartender</h2>
                 <p>Location based happy hour finder built with React.js and styled components</p>
-                <a href="heybartender.html" class="btn btn0">View Case Study</a>
+                <button class="btn btn0">View Case Study</button>
             </div>
             
         </a>
@@ -70,24 +72,24 @@
 
      <article class="card card2">
         <a href="bumobile.html">
-            <img src="assets/images/cases/terriercard.png">
+            <img src="assets/images/cases/terriercard.png" alt="Mockup of Terrier Card">
             <div class="card__text">
                 <p>Mobile Application</p>
                 <h2>Terrier Card</h2>
                 <p>Mobile banking application for Boston University students</p>
-                <a href="#" class="btn btn2">View Case Study</a>
+                <button class="btn btn2">View Case Study</button>
             </div>
         </a>
     </article>
 
     <article class="card card3">
         <a href="konexio.html">
-            <img src="assets/images/cases/konexio.png">
+            <img src="assets/images/cases/konexio.png" alt="Mockup of Konexio">
             <div class="card__text">
                 <p>Web Application</p>
                 <h2>Konexio Connect</h2>
                 <p>Redesign of Boston University’s mobile application for transportation, laundry, finance, and emergencies.</p>
-                <a href="#" class="btn btn3">View Case Study</a>
+                <button class="btn btn3">View Case Study</button>
             </div>
         </a>
     </article>
@@ -95,40 +97,63 @@
 
     <article class="card card1">
             <a href="lit.html">
-                <img src="assets/images/cases/lit.png">
+                <img src="assets/images/cases/lit.png" alt="Mockup of LIT">
                 <div class="card__text">
                     <p>Mobile Application</p>
                     <h2>Ladies in Technology</h2>
                     <p>Networking platform for women in technology with in-app messaging and virtual business cards</p>
-                    <a href="#" class="btn btn1">View Case Study</a>
+                    <button class="btn btn1">View Case Study</button>
                 </div>
             </a>
     </article>
 
         <article class="card card1">
                 <a href="avrio.html">
-                    <img src="assets/images/cases/avrio.png">
+                    <img src="assets/images/cases/avrio.png" alt="Mockup of Avrio Website">
                     <div class="card__text">
                         <p>Company Website</p>
                         <h2>Avrio AI</h2>
                         <p>Company website for an artificial intelligence startup in human resources</p>
-                        <a href="#" class="btn btn1">View Case Study</a>
+                        <button class="btn btn1">View Case Study</button>
                     </div>
                 </a>
         </article>
         
         <article class="card card1">
                     <a href="freshtofit.html">
-                        <img src="assets/images/cases/fresh.png">
+                        <img src="assets/images/cases/fresh.png" alt="Mockup of Fresh to Fit">
                         <div class="card__text">
                             <p>Web Application</p>
                             <h2>Fresh to Fit</h2>
                             <p>Final project for Design and Interactive Experiences Class</p>
-                            <a href="#" class="btn btn1">View Case Study</a>
+                            <button class="btn btn1">View Case Study</button>
                         </div>
                     </a>
             </article>
-            
+        </section>
+            <footer>        
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <div class="social-media">
+                    <a href="http://linkedin.com/in/isabellenguyenphuoc/" target="_blank"><span class="screen-reader-text">LinkedIn</span>
+                        <span class="fab fa-linkedin fa-2x" aria-hidden="true"></span>
+                    </a>
+                    <a href="mailto:contact@icnp.design"><span class="screen-reader-text">Email</span>
+                        <span class="fas fa-envelope-square fa-2x" aria-hidden="true"></span>
+                    </a>
+                    <a href="http://twitter.com/icnpdesign" target="_blank"><span class="screen-reader-text">Twitter</span>
+                        <span class="fab fa-twitter-square fa-2x" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" target="_blank"><span class="screen-reader-text">GitHub</span>
+                        <span class="fab fa-github-square fa-2x" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" target="_blank"><span class="screen-reader-text">Dribbble</span>
+                        <span class="fab fa-dribbble-square fa-2x" aria-hidden="true"></span>
+                    </a>
+                </div>
+        
+                <p>&copy; 2018</p>
+                <p>Designed and Developed by Isabelle Nguyen-Phuoc</p>
+            </footer>     
 
 </body>
 </html>
