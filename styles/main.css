@@ -191,11 +191,16 @@ nav img:hover {
 	opacity: 0.4;
 }
 
+.subheader {
+	font-size: 1.2rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+	text-transform: none;
+	letter-spacing: 0;
+	color: var(--caption-color);
+	margin-top: 0;
+}
 /****** Case Study Cards ******/
-/* .case-studies {
-    margin-top: 5rem;
-    display: block;
-} */
 
 .card {
 	background-color: #fff;

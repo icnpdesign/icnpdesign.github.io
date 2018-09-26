@@ -1,22 +1,27 @@
 const primaryColor = '#db6565';
-let cards = ['.card0', '.card1', '.card2', '.card3', '.card4', '.card5']
-let buttons = ['.btn0', '.btn1', '.btn2', '.btn3', '.btn4', '.btn5']
+let buttons = ['.btn0', '.btn1', '.btn2', '.btn3', '.btn4', '.btn5'];
 
  $(document).ready(function(){
+/*   let cards = ['.card0', '.card1', '.card2', '.card3', '.card4', '.card5'];
+
   for (i = 0; i < cards.length; i++) {
+    console.log('running');
+    console.log(cards[i]);
+
     $(function() {
       $(cards[i]).hover(function() {
+        console.log('test');
         $(cards[i]).css('cursor', 'pointer');  
         $(buttons[i]).css('background-color', primaryColor);
-        $((buttons[i]).css('color', '#FFF');
+        $(buttons[i]).css('color', '#FFF');
       }, function() {
         // on mouseout, reset the background colour
-        $((buttons[i]).css('background-color', 'inherit');
-        $((buttons[i]).css('color', primaryColor);
+        $(buttons[i]).css('background-color', 'inherit');
+        $(buttons[i]).css('color', primaryColor);
       });
-  })}
+  }) */
 
-  /* $(function() {
+  $(function() {
     $('.card0').hover(function() {
       $('.card0').css('cursor', 'pointer');  
       $('.btn0').css('background-color', primaryColor);
@@ -86,7 +91,7 @@ let buttons = ['.btn0', '.btn1', '.btn2', '.btn3', '.btn4', '.btn5']
         $('.btn5').css('background-color', 'inherit');
         $('.btn5').css('color', primaryColor);
       });
-    }); */
+    });
     
     var getMax = function(){
         return $(document).height() - $(window).height();
@@ -137,7 +142,7 @@ let buttons = ['.btn0', '.btn1', '.btn2', '.btn3', '.btn4', '.btn5']
             setWidth();
         });
     }
-});
+}) ;
 
 
 
