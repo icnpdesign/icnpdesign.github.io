@@ -91,6 +91,16 @@ let buttons = ['.btn0', '.btn1', '.btn2', '.btn3', '.btn4', '.btn5'];
         $('.btn5').css('background-color', 'inherit');
         $('.btn5').css('color', primaryColor);
       });
+
+      $('.card6').hover(function() {
+        $('.card6').css('cursor', 'pointer');  
+        $('.btn6').css('background-color', primaryColor);
+        $('.btn6').css('color', '#FFF');
+      }, function() {
+        //on mouseout, reset the background colour
+        $('.btn6').css('background-color', 'inherit');
+        $('.btn6').css('color', primaryColor);
+      });
     });
     
     var getMax = function(){
